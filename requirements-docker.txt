@@ -1,0 +1,38 @@
+# Core Backend
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart
+pydantic>=2.5.0
+pydantic-settings
+
+# Database
+pymongo
+motor
+
+# PDF Processing
+pymupdf4llm
+pdf2image
+pytesseract
+
+# ML & LLM (CPU-only for Docker Linux)
+transformers
+torch --index-url https://download.pytorch.org/whl/cpu
+sentencepiece
+
+# Vector DB
+chromadb
+sentence-transformers
+
+# Utilities
+python-dotenv
+aiofiles
+numpy
+pillow
+
+# Testing
+pytest
+pytest-asyncio
+httpx
+
+# OpenAI (for Docker - recommend using OpenAI API instead of local models)
+openai
