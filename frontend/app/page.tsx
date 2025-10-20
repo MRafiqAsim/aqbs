@@ -52,7 +52,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            AI-Powered Question Generator
+            Autonomous Question Bank System Using Generative AI
           </h1>
           <p className="text-lg text-gray-600">
             Upload a PDF document and let AI generate educational questions automatically
